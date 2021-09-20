@@ -15,7 +15,7 @@ const getcontryHTML = (country) => {
     <div class='country'>
         <h2>${country.name}</h2>
         <h4>capital: ${country.capital}</h4>
-        <h4>Religion: ${country.religion}</h4>
+        
         <img src="${country.flag}">
     </div>
     `;
