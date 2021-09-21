@@ -11,12 +11,13 @@ const displyCountries = (countries) => {
   
 };
 const getcontryHTML = (country) => {
+  const {name, capital, flag} = country;
   return `
     <div class='country'>
-        <h2>${country.name}</h2>
-        <h4>capital: ${country.capital}</h4>
+        <h2>${name}</h2>
+        <h4>capital: ${capital}</h4>
         
-        <img src="${country.flag}">
+        <img src="${flag}">
     </div>
     `;
 };

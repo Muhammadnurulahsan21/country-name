@@ -5,6 +5,13 @@
     background-color: rgb(255, 208, 208);
 }
 
+.text{
+    font-size: 60px;
+    color: lightcoral;
+    
+
+}
+
 .country img{
     width: 200px;
 
